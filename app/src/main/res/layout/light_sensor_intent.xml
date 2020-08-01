@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/yAxisLabel"
+        android:layout_width="21dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="40dp"
+        android:text="D\na\nt\na\n \n l\nu\nx"
+        android:textSize="21sp"
+        android:textColor="@android:color/white"/>
+    <unc.live.d42n81.sensorplots_davidmooreassignment2.GraphView
+        android:id="@+id/graph"
+        android:layout_width="310dp"
+        android:layout_height="310dp"
+        android:layout_alignLeft="@+id/yAxisLabel"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="360dp"
+        android:text="Time (*100msec)"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp" />
+    <TextView
+        android:id="@+id/zerothXLabel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="320dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:id="@+id/firstXLabel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="320dp"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:id="@+id/secondXLabel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="320dp"
+        android:text="2"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:id="@+id/thirdXLabel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="320dp"
+        android:text="3"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:id="@+id/fourthXLabel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="320dp"
+        android:text="4"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:id="@+id/fifthXLabel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="320dp"
+        android:text="5"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:id="@+id/sixthXLabel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="346dp"
+        android:text="6"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="300dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="250dp"
+        android:text="100"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="200dp"
+        android:text="200"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="150dp"
+        android:text="300"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:text="400"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:text="500"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="25dp"
+        android:text="600"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:id="@+id/legend"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Legend:"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="340dp"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        android:textColorHighlight="#FFEB3B"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Data,"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="340dp"
+        android:textColor="#660666"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Mean,"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="340dp"
+        android:textColor="#3F51B5"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Standard Deviation"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="340dp"
+        android:textColor="#F44336"
+        android:textSize="11sp"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="420dp"
+        app:backgroundTint = "#333333"
+        android:text="Back"
+        android:textColor="#660066"
+        android:textSize="21sp"
+        android:onClick="backOnClick"/>
+
+    <ImageView
+        android:id="@+id/sun"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/redsunblack"/>
+
+</RelativeLayout>
